@@ -1,0 +1,47 @@
+/* font-family: arial,sans-serif; */
+body{
+    background: #202124;
+    color: #bdc1c6;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    margin: auto 0;
+}
+header{
+    padding: 10px;
+    padding-top: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.1rem;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 6px;
+    margin: 0;
+}
+img{
+    min-width: 2em;
+    min-height: 2em;
+}
+.underline:hover{
+    text-decoration: underline;
+}
+.apps-icon img{
+    padding-left: 15px;
+}
+.profile-icon,
+.apps-icon{
+    min-height: 5em;
+    min-width: 2em;
+    padding: 6px;
+}
+#grafika{
+    padding-left: 15px;
+}
